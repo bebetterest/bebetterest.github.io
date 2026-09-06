@@ -1,0 +1,4 @@
+# Use with _config.yml when building the Sites mirror.
+# Keep liyujian.cn as the canonical domain for both deployments.
+footer_text: >
+  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and hosted on Sites.

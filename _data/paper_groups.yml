@@ -1,0 +1,11 @@
+# These titles and statements are rendered in the papers section on the home page.
+# Statements support Markdown.
+- id: safety
+  title: AI safety & adversarial robustness
+  statement: >-
+    I study how models can remain reliable under adversarial pressure. This work ranges from rapid plug-in defenses for deployed models to language and vision-language foundation models built for content and AI safety.
+
+- id: generalization
+  title: Optimization & generalization
+  statement: >-
+    I am interested in turning model-generated structure and experience across tasks into reusable problem-solving strategies. This work spans semantic prompt evolution, synthetic time-series pretraining, and zero-shot black-box optimization.

@@ -1,0 +1,26 @@
+{
+  "wu2024rapid": {
+    "source": "https://proceedings.neurips.cc/paper_files/paper/26187-/bibtex",
+    "bibtex": "@inproceedings{NEURIPS2024_fd9c2c5d,\n author = {Wu, Kai and Li, Yujian Betterest and Lou, Jian and Zhang, Xiaoyu and Wang, Handing and Liu, Jing},\n booktitle = {Advances in Neural Information Processing Systems},\n doi = {10.52202/079017-4449},\n editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},\n pages = {140175--140198},\n publisher = {Curran Associates, Inc.},\n title = {Rapid Plug-in Defenders},\n url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/fd9c2c5d018264c28791cda8bd60c8ce-Paper-Conference.pdf},\n volume = {37},\n year = {2024}\n}\n"
+  },
+  "li2024pom": {
+    "source": "https://proceedings.neurips.cc/paper_files/paper/25276-/bibtex",
+    "bibtex": "@inproceedings{NEURIPS2024_19e9a88d,\n author = {Li, Xiaobin and Wu, Kai and Li, Yujian Betterrest and Zhang, Xiaoyu and Wang, Handing and Liu, Jing},\n booktitle = {Advances in Neural Information Processing Systems},\n doi = {10.52202/079017-0456},\n editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},\n pages = {14283--14324},\n publisher = {Curran Associates, Inc.},\n title = {Pretrained Optimization Model for Zero-Shot Black Box Optimization},\n url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/19e9a88d91917775b34fdad447ed8908-Paper-Conference.pdf},\n volume = {37},\n year = {2024}\n}\n"
+  },
+  "wang2025symtime": {
+    "source": "https://proceedings.neurips.cc/paper_files/paper/30205-/bibtex",
+    "bibtex": "@inproceedings{NEURIPS2025_0f45ce82,\n author = {Wang, Wenxuan and Wu, Kai and li, yujian and Wang, Dan and Zhang, Xiaoyu},\n booktitle = {Advances in Neural Information Processing Systems},\n doi = {10.52202/085713-0352},\n editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},\n pages = {10491--10554},\n publisher = {Curran Associates, Inc.},\n title = {Synthetic Series-Symbol Data Generation for Time Series Foundation Models},\n url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/0f45ce821121c459398fd03a0ecc6b60-Paper-Conference.pdf},\n volume = {38, Main Conference},\n year = {2025}\n}\n"
+  },
+  "ma2026yuvionllm": {
+    "source": "https://arxiv.org/bibtex/2606.27632",
+    "bibtex": "@misc{ma2026yuvionllmadversariallyawarelarge,\n      title={Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety}, \n      author={Ting Ma and Xiufeng Huang and Benlei Cui and Xiaowen Xu and Shikai Qiu and Ruijie Jian and Hongxing Li and Guanghui Wang and Longtao Huang and Haiwen Hong and Haolei Xu and Wenjing Jiang and Ziwen Xu and Zhaoyu Fan and Shaoxuan He and Chuxi Xiao and Yujian Li and Xinyue Chen and Chunyang Chai and Wenxuan Liu and Ziheng Wang and Dongjie Zhang and Yangfan Zhou and Libin Dong and Yupeng Cao and Xiaoqian Xia and Jing Wang and Zhe Jiang and Zhenan Ye and Guang Yang and Bin Liu and Wei Peng and Ziqiang Zhu and Meihui Lian and Kaiwen Lv Kacuila and Haidong Ding and Bingyu Zhu and Yan Wang and Hai Zhao and Xuan Jin and Wei Zhao and Pengfei Sun and Wei Wang and Huiming Zhang and Bin Li and Hui Xue},\n      year={2026},\n      eprint={2606.27632},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2606.27632}, \n}"
+  },
+  "qiu2026yuvion": {
+    "source": "https://arxiv.org/bibtex/2606.25034",
+    "bibtex": "@misc{qiu2026yuvionvlmultimodalfoundation,\n      title={Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety}, \n      author={Shikai Qiu and Xiaowen Xu and Benlei Cui and Ting Ma and Xiufeng Huang and Wenjing Jiang and Shaoxuan He and Haolei Xu and Chunyang Chai and Yujian Li and Yiliang Zhang and Guanghui Wang and Ziheng Wang and Ziwen Xu and Zhaoyu Fan and Jinhao Chen and Ruijie Jian and Hongxing Li and Chuxi Xiao and Xinyue Chen and Wenxuan Liu and Libin Dong and Yupeng Cao and Xiaoqian Xia and Jing Wang and Zhe Jiang and Zhenan Ye and Guang Yang and Bin Liu and Wei Peng and Ziqiang Zhu and Meihui Lian and Kaiwen Lv Kacuila and Haidong Ding and Dongjie Zhang and Yangfan Zhou and Bingyu Zhu and Yan Wang and Hai Zhao and Xuan Jin and Wei Zhao and Pengfei Sun and Huiming Zhang and Wei Wang and Xipeng Cao and Jialun Chen and Xiao Chen and Shaola Ren and Yunqing Hu and Bin Li and Chengwen Yao and Meng Huang and Xianfeng Li and Bin Tang and Chao Liu and Hui Xue and Longtao Huang and Haiwen Hong},\n      year={2026},\n      eprint={2606.25034},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2606.25034}, \n}"
+  },
+  "li2023spell": {
+    "source": "https://arxiv.org/bibtex/2310.01260",
+    "bibtex": "@misc{li2023spellsemanticpromptevolution,\n      title={SPELL: Semantic Prompt Evolution based on a LLM}, \n      author={Yujian Betterest Li and Kai Wu},\n      year={2023},\n      eprint={2310.01260},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2310.01260}, \n}"
+  }
+}
