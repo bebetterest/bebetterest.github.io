@@ -1,0 +1,23 @@
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.ruby-version
+.sass-cache
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+al-folio-upgrade-report.md
+node_modules/
+.pnpm-store/
+output/playwright/
+test-results/
+vendor
+!assets/vendor/
+
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc

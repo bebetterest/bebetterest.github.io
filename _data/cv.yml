@@ -1,0 +1,177 @@
+cv:
+  name: Yujian Li
+  email: bebetterest@outlook.com
+  image: ""
+
+  social_networks:
+    - network: GitHub
+      username: bebetterest
+
+  sections:
+    Education:
+      - institution: Xidian University
+        location: Xi'an, China
+        area: Computer Science and Technology
+        studyType: M.Eng.
+        start_date: "2023-09-03"
+        end_date: "2026-06-16"
+        score: "89.91 / 100"
+
+      - institution: Xidian University
+        location: Xi'an, China
+        area: Artificial Intelligence
+        studyType: B.Eng.
+        start_date: "2019-08-24"
+        end_date: "2023-06-21"
+        score: "3.8 / 4.0"
+
+      - institution: Urumqi No. 1 High School
+        description: High School
+        start_date: "2016"
+        end_date: "2019"
+        date_precision: year
+        approximate_duration: "≈ 1,095 days"
+
+      - institution: This world
+        description: Lifelong Learning
+        start_date: "2000-09-27"
+        end_date: Present
+
+    Experience:
+      - company: Alibaba
+        position: Full-time
+        start_date: "2026-06-25"
+        end_date: Present
+        highlights:
+          - "on VL agent for the audit task."
+
+      - company: Alibaba
+        position: Intern
+        start_date: "2025-05-26"
+        end_date: "2025-09-05"
+        highlights:
+          - "on optimizing (sft+grpo) VLM for the audit task. Lucky to meet chuxi, chunyang, zhaoyu, xinyue, hongqiao, ziang, yan, zi, ting, haiwen... I also tried something on entropy-controlled grpo and budget-controlled reasoning."
+
+      - company: Microsoft
+        position: Intern (remote)
+        start_date: "2024-10-29"
+        end_date: "2025-02-17"
+        highlights:
+          - "on reasoning (math/code). Lucky to meet xinyu, yifei, jiahang, li... I was asked on many things, including mcts, self-correction, long synthetic cot, online rl... Due to constant requests to change direction, it is broad but superficial. I do not think that I deserve the 'Stars of Tomorrow' certificate. :<"
+
+      - company: Tencent
+        position: Intern
+        start_date: "2024-03-06"
+        end_date: "2024-07-25"
+        highlights:
+          - "on LLM application for game. Happy to meet c, wang, tensor, peixin, ziv... We contributed to an llm-powered chat npc in a game and it's online."
+
+    Publications:
+      - title: "Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety"
+        authors:
+          - Ting Ma
+          - Xiufeng Huang
+          - Benlei Cui
+          - Xiaowen Xu
+          - Shikai Qiu
+          - Ruijie Jian
+          - Hongxing Li
+          - Guanghui Wang
+          - Longtao Huang
+          - Haiwen Hong
+          - Haolei Xu
+          - Wenjing Jiang
+          - Ziwen Xu
+          - Zhaoyu Fan
+          - Shaoxuan He
+          - Chuxi Xiao
+          - Yujian Li
+          - et al.
+        publisher: arXiv preprint · arXiv:2606.27632
+        releaseDate: "2026"
+        url: https://arxiv.org/abs/2606.27632
+
+      - title: "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety"
+        authors:
+          - Shikai Qiu
+          - Xiaowen Xu
+          - Benlei Cui
+          - Ting Ma
+          - Xiufeng Huang
+          - Wenjing Jiang
+          - Shaoxuan He
+          - Haolei Xu
+          - Chunyang Chai
+          - Yujian Li
+          - et al.
+        publisher: arXiv preprint · arXiv:2606.25034
+        releaseDate: "2026"
+        url: https://arxiv.org/abs/2606.25034
+
+      - title: "Synthetic Series-Symbol Data Generation for Time Series Foundation Models"
+        authors:
+          - Wenxuan Wang
+          - Kai Wu
+          - Yujian Betterest Li
+          - Dan Wang
+          - Xiaoyu Zhang
+        publisher: NeurIPS 2025 · Poster
+        releaseDate: "2025"
+        url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/0f45ce821121c459398fd03a0ecc6b60-Abstract-Conference.html
+
+      - title: Pretrained Optimization Model for Zero-Shot Black Box Optimization
+        authors:
+          - Xiaobin Li
+          - Kai Wu
+          - Yujian Betterrest Li
+          - Xiaoyu Zhang
+          - Handing Wang
+          - Jing Liu
+        publisher: NeurIPS 2024 · Poster
+        releaseDate: "2024"
+        url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/19e9a88d91917775b34fdad447ed8908-Abstract-Conference.html
+
+      - title: Rapid Plug-in Defenders
+        authors:
+          - Kai Wu
+          - Yujian Betterest Li
+          - Jian Lou
+          - Xiaoyu Zhang
+          - Handing Wang
+          - Jing Liu
+        publisher: NeurIPS 2024 · Poster
+        releaseDate: "2024"
+        url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/fd9c2c5d018264c28791cda8bd60c8ce-Abstract-Conference.html
+        summary: Corresponding author.
+
+      - title: "SPELL: Semantic Prompt Evolution based on a LLM"
+        authors:
+          - Yujian Betterest Li
+          - Kai Wu
+        publisher: arXiv preprint · arXiv:2310.01260
+        releaseDate: "2023"
+        url: https://arxiv.org/abs/2310.01260
+        summary: Corresponding author.
+
+    Projects:
+      - name: OpenCompany
+        url: https://github.com/bebetterest/OpenCompany
+        summary: A toy environment where agents and users can self-organize, recruit, terminate, and collaborate.
+
+      - name: AgentTrade
+        url: https://github.com/bebetterest/AgentTrade
+        summary: agent-native hiring and execution playground.
+
+      - name: JJQA
+        url: https://github.com/bebetterest/JJQA
+        summary: A Chinese question-answering dataset built around the lyrics of JJ Lin.
+
+    Awards:
+      - title: Top 10 · CVPR 2022 Third Workshop on Neural Architecture Search, Track 2
+        date: "2022"
+
+      - title: Second place · BetterMixture / Alibaba Tianchi LLM fine-tuning data-mix challenge
+        date: "2024"
+
+      - title: Third prize · Baidu Commercial AI Technology Innovation Competition, Track 1
+        date: "2023"

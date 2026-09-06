@@ -1,0 +1,17 @@
+# The first entry is the default portrait. Each entry owns its source image.
+- label: GPT-6 Astra Light
+  image: /assets/img/prof_pic_pixel.png
+  width: 512
+  height: 512
+  pixelated: true
+- label: Natural
+  image: /assets/img/prof_pic.jpg
+  width: 321
+  height: 426
+  pixelated: false
+- label: GPT Image
+  image: /assets/img/prof_pic_gpt_image.png
+  preview: /assets/img/prof_pic_gpt_image-preview.jpg
+  width: 512
+  height: 512
+  pixelated: false
