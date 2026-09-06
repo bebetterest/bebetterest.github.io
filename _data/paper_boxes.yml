@@ -1,0 +1,16 @@
+# Use BibTeX keys to choose papers and their order. Notes support Markdown.
+- papers:
+    - wu2024rapid
+    - li2023spell
+  before: "Except for writing and polishing the papers, I did almost all the work myself."
+  after: ""
+- papers:
+    - wang2025symtime
+    - li2024pom
+  before: "I just helped."
+  after: ""
+- papers:
+    - ma2026yuvionllm
+    - qiu2026yuvion
+  before: "I contributed just a little during my internship."
+  after: ""
