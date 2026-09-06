@@ -1,0 +1,27 @@
+name: Lighthouse
+
+on:
+  page_build:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    if: github.event_name == 'workflow_dispatch' || github.event.build.status == 'built'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Audit published website
+        run: >-
+          npx --yes lighthouse@12.8.2 https://bebetterest.github.io/
+          --chrome-flags="--headless --no-sandbox"
+          --output=html --output=json --output-path=./lighthouse-report
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-report
+          path: lighthouse-report.*

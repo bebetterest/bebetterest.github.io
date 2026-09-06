@@ -1,0 +1,22 @@
+- year: 2025
+  date: "2025-06-19"
+  type: INFJ-A
+  label: Latest snapshot
+  url: https://www.16personalities.com/profiles/infj-a/m/v7x4n99il
+  traits:
+    - { name: Introverted, value: 94 }
+    - { name: Intuitive, value: 88 }
+    - { name: Feeling, value: 86 }
+    - { name: Judging, value: 63 }
+    - { name: Assertive, value: 53 }
+- year: 2024
+  date: "2024-09-23"
+  type: INFJ-T
+  label: Earlier chapter
+  url: https://www.16personalities.com/infj-personality
+  traits:
+    - { name: Introverted, value: 100 }
+    - { name: Intuitive, value: 93 }
+    - { name: Feeling, value: 78 }
+    - { name: Judging, value: 65 }
+    - { name: Turbulent, value: 67 }
