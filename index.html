@@ -1,0 +1,565 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Yujian Li </title> <meta name="author" content="Yujian Li"> <meta name="description" content="Yujian Li's personal site: education, experience, papers, playthings, and blog posts. "> <meta name="keywords" content="Yujian Li, 李宇健, LLM reasoning, post-training, AI agents, machine learning"> <meta property="og:site_name" content="Yujian Li"> <meta property="og:type" content="website"> <meta property="og:title" content="Yujian Li | about"> <meta property="og:url" content="https://liyujian.cn/"> <meta property="og:description" content="Yujian Li's personal site: education, experience, papers, playthings, and blog posts. "> <meta property="og:image" content="https://liyujian.cn/assets/img/prof_pic.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="about"> <meta name="twitter:description" content="Yujian Li's personal site: education, experience, papers, playthings, and blog posts. "> <meta name="twitter:image" content="https://liyujian.cn/assets/img/prof_pic.jpg"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Yujian Li"
+        },
+        "url": "https://liyujian.cn/",
+        "@type": "WebSite",
+        "description": "Yujian Li's personal site: education, experience, papers, playthings, and blog posts.
+",
+        "headline": "about",
+        
+        "sameAs": ["https://github.com/bebetterest","https://twitter.com/betterestli"],
+        
+        "name": "Yujian Li",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;YL&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://liyujian.cn/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/al_email_protect/css/email-protect.css"> <link rel="stylesheet" href="/assets/personal-site.css?v=5c144d0b4a74"> <style data-personal-style="">
+  .happy-rainbow { white-space: nowrap; }
+  .happy-rainbow span:nth-child(1) { color: #d73651; }
+  .happy-rainbow span:nth-child(2) { color: #bd6500; }
+  .happy-rainbow span:nth-child(3) { color: #25813b; }
+  .happy-rainbow span:nth-child(4) { color: #2778cb; }
+  .happy-rainbow span:nth-child(5) { color: #9b49c5; }
+  .about-download { display: flex; justify-content: flex-start; flex-wrap: nowrap; gap: .4rem; align-items: center; margin: 0 auto 0 0; position: relative; flex-shrink: 0; }
+  #navbar .about-download + .navbar-toggler { margin-left: auto; }
+  #navbar .about-download ~ .navbar-collapse { flex-grow: 1; }
+  .about-download button { font-size: .78rem; line-height: 1.4; min-height: 2rem; border: 1px solid var(--global-divider-color); border-radius: .3rem; padding: .2rem .45rem; background: transparent; color: var(--global-text-color-light); cursor: pointer; }
+  .about-download button:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+  .about-download button:disabled { opacity: .5; cursor: wait; }
+  .about-download-status { position: absolute; top: 100%; left: 0; font-size: .75rem; white-space: nowrap; background: var(--global-bg-color); }
+  @property --portrait-start {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #a5a9b5;
+  }
+  @property --portrait-end {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #c5c5ce;
+  }
+  .post-header .post-title .font-weight-bold {
+    font-weight: inherit;
+  }
+
+  .post-header.profile-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding-right: clamp(0rem, calc(12vw - 4.8rem), 4rem);
+    justify-content: start;
+    grid-template-rows: auto;
+    column-gap: clamp(1rem, 3vw, 2rem);
+    row-gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .profile-header .post-title {
+    grid-column: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .profile-header .desc:empty {
+    display: none;
+  }
+
+  .profile-header .profile {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    float: none !important;
+    width: clamp(10rem, 36vw, 15rem);
+    margin: 0 !important;
+    box-sizing: content-box;
+    padding: 0.7rem;
+    border: 3px solid var(--portrait-accent, #c5c5d0);
+    border-radius: 0.85rem;
+    background: var(--global-bg-color);
+    box-shadow: 0 16px 40px 3px #00000010, 0 5px 14px #0000000c;
+    transition: border-color 650ms cubic-bezier(.22,1,.36,1), box-shadow 650ms ease, outline-color 650ms ease;
+  }
+
+  .profile-header .profile figure {
+    margin: 0;
+  }
+
+  .portrait-frame {
+    position: relative;
+    height: clamp(7rem, 22.2vw, 9.25rem);
+    overflow: hidden;
+    border-radius: 0.35rem;
+    background: transparent;
+  }
+
+  .portrait-frame > figure { height: 100%; }
+  .portrait-frame picture { display: block; height: 100%; }
+  .portrait-frame picture img { width: 100%; height: 100%; object-fit: contain; box-shadow: none; }
+  .portrait-frame .pixel-portrait {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+  .portrait-frame .pixel-portrait[hidden] { display: none; }
+  .portrait-expand {
+    display: inline-flex; align-items: center; justify-content: center;
+    position: absolute; top: 0.3rem; right: 0.3rem; z-index: 5;
+    width: 2rem; height: 2rem; border: 0; border-radius: 0.4rem;
+    color: var(--global-text-color-light); background: var(--global-bg-color);
+    cursor: pointer;
+  }
+  .portrait-expand:hover { color: var(--global-theme-color); }
+  .portrait-expand:focus-visible { outline: 2px solid var(--global-theme-color); }
+  .portrait-preview {
+    max-width: 94vw; max-height: 94vh; padding: 2.5rem 1rem 1rem;
+    border: 1px solid #8886; border-radius: 0.8rem;
+    background: var(--global-bg-color); color: var(--global-text-color);
+    box-shadow: 0 20px 80px #0005;
+  }
+  .portrait-preview::backdrop { background: #000a; }
+  .portrait-preview img { display: block; width: auto; height: auto; max-width: 86vw; max-height: 78vh; object-fit: contain; margin: auto; }
+  .portrait-preview-close { position: absolute; right: 0.65rem; top: 0.5rem; border: 0; background: transparent; color: inherit; cursor: pointer; padding: 0.35rem 0.6rem; }
+  .portrait-rail { display: flex; height: 100%; width: 100%; transform: translateX(calc((100% - var(--portrait-panel-size, 60%)) / 2 - var(--portrait-index, 0) * var(--portrait-panel-size, 60%))); transition: transform 520ms cubic-bezier(.22,1,.36,1); }
+  .portrait-panel { flex: 0 0 var(--portrait-panel-size, 60%); min-width: 0; height: 100%; padding: 6px; box-sizing: border-box; transition: transform 420ms ease, opacity 300ms ease; }
+  .portrait-panel[aria-hidden="true"] { opacity: 0; }
+  .portrait-panel .is-pixelated { image-rendering: pixelated; }
+  .portrait-panel img { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 0.3rem; box-shadow: none; }
+  .portrait-frame.is-dragging .portrait-rail { transition: none; }
+  .portrait-frame.is-dragging .portrait-panel img { filter: drop-shadow(0 5px 4px #00000022); }
+  .portrait-slider.is-dragging .portrait-knob, .portrait-slider.is-dragging .portrait-fill { transition: none; }
+  @media (prefers-reduced-motion: reduce) { .portrait-rail, .portrait-panel { transition: none; } }
+  .portrait-control { margin-top: 0.45rem; text-align: center; }
+  .portrait-slider { position: relative; padding: 0.2rem 0; }
+  .portrait-stops {
+    position: absolute; inset: 0 0.8rem;
+    display: flex; justify-content: space-between; align-items: center;
+    pointer-events: none;
+  }
+  .portrait-stop { width: 4px; height: 4px; border-radius: 50%; background: #b5b5ba; }
+  .portrait-toggle { position: relative; z-index: 1; }
+  .portrait-stops { z-index: 2; }
+  .portrait-slider:hover .portrait-stop { transform: scale(1.35); }
+  .portrait-stop { transition: transform 150ms ease; }
+  .portrait-caption {
+    display: block;
+    min-height: 1.4em;
+    font-size: 0.78rem;
+    line-height: 1.3;
+    color: var(--global-text-color-light);
+  }
+  .portrait-toggle {
+    appearance: none;
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    height: 1.4rem;
+    margin: 0.6rem 0;
+    padding: 0;
+    border: 1px solid #d9d9dc;
+    background: #e9e9eb;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  .portrait-toggle::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #dedde6;
+    box-shadow: 0 1px 3px #00000015;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+  }
+  .portrait-toggle:hover::-webkit-slider-thumb { transform: scale(1.1); box-shadow: 0 2px 6px #00000020; }
+  .portrait-toggle:active::-webkit-slider-thumb { transform: scale(1.15); }
+  .portrait-toggle::-moz-range-thumb {
+    width: 1.65rem; height: 1.65rem;
+    border-radius: 50%; background: #fff;
+    border: 1px solid #dedde6;
+    box-shadow: 0 1px 3px #00000015;
+  }
+  .portrait-toggle { background: linear-gradient(to right, transparent var(--progress, 0%), #e9e9eb var(--progress, 0%)), linear-gradient(110deg, #9097ff, #b35eff 55%, #7043e5); }
+  .portrait-stop.is-selected { visibility: hidden; }
+  .portrait-slider {
+    --position: 0%;
+    --accent: #aaaab2;
+    --glow: #aaaab233;
+    --fill: linear-gradient(110deg, #a5a9b5, #c5c5ce);
+    border-radius: 2rem;
+    transition: box-shadow 650ms ease, --portrait-start 650ms ease-in-out, --portrait-end 650ms ease-in-out;
+  }
+  .portrait-slider:hover { box-shadow: none; }
+  .portrait-slider:focus-within { box-shadow: none; }
+  .profile-header .profile:has(.portrait-toggle:focus-visible) { outline: 2px solid var(--portrait-accent, #aaaab2); outline-offset: 3px; }
+  .portrait-toggle:focus-visible { outline: none; }
+  .portrait-track {
+    position: absolute; left: 0; right: 0; top: 0.8rem; height: 1.4rem;
+    overflow: hidden; border-radius: 2rem; background: #e9e9eb;
+    border: 1px solid var(--accent);
+    transition: border-color 650ms ease-in-out;
+    pointer-events: none;
+  }
+  .portrait-fill {
+    height: 100%; width: var(--position); background: linear-gradient(110deg, var(--portrait-start), var(--portrait-end));
+    transition: width 360ms cubic-bezier(.22,1,.36,1), background 300ms ease;
+  }
+  .portrait-knob {
+    position: absolute; top: 0.675rem;
+    left: calc(0.825rem + (100% - 1.65rem) * var(--fraction, 0));
+    width: 1.65rem; height: 1.65rem;
+    transform: translateX(-50%);
+    border-radius: 50%; border: 1px solid #dedde6; background: #fff;
+    box-shadow: 0 1px 3px #00000018; z-index: 3; pointer-events: none;
+    transition: left 360ms cubic-bezier(.22,1,.36,1), scale 150ms ease, box-shadow 150ms ease;
+  }
+  .portrait-slider:hover .portrait-knob { scale: 1.08; box-shadow: 0 2px 7px #00000025; }
+  .portrait-slider.is-dragging .portrait-knob { scale: 1.12; }
+  .portrait-toggle { opacity: 0; z-index: 4; }
+  @media (prefers-reduced-motion: reduce) {
+    .portrait-toggle::-webkit-slider-thumb, .portrait-stop { transition: none; }
+    .portrait-slider, .portrait-track, .portrait-fill, .portrait-knob { transition: none; }
+  }
+
+  .profile-header .intro-links {
+    grid-column: 1;
+    margin: 0;
+  }
+
+  @media (max-width: 480px) {
+    .post-header.profile-header { column-gap: 1rem; }
+    .profile-header .profile { width: clamp(6.5rem, 28vw, 8.5rem); padding: 0.55rem; }
+    .profile-header .post-title { font-size: 1.85rem; }
+  }
+
+  .intro-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .intro-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    color: var(--global-text-color);
+    font-size: 1.5rem;
+    border-radius: 0.35rem;
+    text-decoration: none;
+  }
+
+  .intro-links a:hover {
+    color: var(--global-theme-color);
+  }
+
+
+  .intro-links a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 480px) {
+    .profile-header .profile { --portrait-panel-size: 90%; }
+    .portrait-frame { height: 6.25rem; }
+    .experience-entry .experience-entry-header { flex-direction: column; align-items: flex-start; }
+  }
+
+  @media (max-width: 540px) {
+    .profile-header .intro-links { flex-wrap: nowrap; gap: .2rem; }
+    .profile-header .intro-links a { width: clamp(1.65rem, 8.5vw, 2.25rem); flex-shrink: 0; }
+    .about-export-copy .post-header.profile-header {
+      grid-template-columns: minmax(0, 1fr);
+      padding-right: 0;
+      row-gap: 1.25rem;
+    }
+    .about-export-copy .profile-header .profile { grid-column: 1; grid-row: 2; justify-self: center; }
+  }
+
+  .personal-motto {
+    margin: 1.25rem 0 2rem;
+    font-family: "Snell Roundhand", "Segoe Script", "Apple Chancery", "URW Chancery L", cursive;
+    font-size: clamp(1.65rem, 4vw, 2.25rem);
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--global-text-color);
+  }
+
+  .personal-motto a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+  }
+
+  .profile-header .personal-motto {
+    grid-column: 1;
+    margin: 0;
+    align-self: start;
+    padding: 0.35rem 0 0.35rem 0.85rem;
+    border-left: 2px solid var(--global-theme-color);
+    font-size: clamp(1.4rem, 3.6vw, 1.85rem);
+  }
+  .profile-intro { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+  .profile-intro .personal-motto a { text-decoration: none; }
+  .profile-intro .personal-motto a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+
+  .personal-motto a:hover {
+    color: var(--global-theme-color);
+  }
+
+  #ma2026yuvionllm > .author,
+  #qiu2026yuvion > .author {
+    display: none;
+  }
+
+  .paper-role {
+    margin: 0.25rem 0;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .experience-entry {
+    margin-bottom: 1.25rem;
+  }
+
+  .experience-entry-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 1rem;
+  }
+
+  .experience-entry h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .experience-entry .experience-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .experience-entry p {
+    margin: 0.3rem 0 0;
+  }
+
+  .experience-days, .experience-duration-estimate {
+    font-variant-numeric: tabular-nums;
+  }
+  .experience-days.is-ongoing {
+    color: var(--global-theme-color);
+    font-weight: 500;
+  }
+
+  .chinese-name {
+    font-size: 0.55em;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .name-pronunciation {
+    margin-left: 0.2rem;
+    padding: 0.1rem 0.2rem;
+    border: 0;
+    color: var(--global-text-color);
+    font-size: 0.42em;
+    line-height: 1;
+    vertical-align: 0.2em;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .name-pronunciation:hover {
+    color: var(--global-theme-color);
+  }
+
+  .name-pronunciation:focus-visible {
+    border-radius: 0.2rem;
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  .paper-group,
+  .individual-papers > ol.bibliography > li {
+    margin: 1.25rem 0;
+    padding: 1rem;
+    border: 1px dashed #828282;
+    border-radius: 0.4rem;
+  }
+
+  .individual-papers > ol.bibliography {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .paper-group h3 {
+    margin-bottom: 0.35rem;
+    font-size: 1.35rem;
+  }
+
+  .paper-group-statement {
+    max-width: 48rem;
+    padding: 0.15rem 0 0.15rem 0.85rem;
+    border-left: 2px solid var(--global-theme-color);
+    color: var(--global-text-color-light);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.95rem;
+    font-style: italic;
+    line-height: 1.65;
+  }
+
+  .paper-group-statement p:last-child {
+    margin-bottom: 0;
+  }
+
+  .paper-group .publications {
+    margin-top: 0.9rem;
+  }
+</style> </head> <body class=" sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top" role="navigation"> <div class="container"> <div class="about-download" data-html2canvas-ignore=""> <span class="about-download-status" role="status" aria-live="polite"></span> <button type="button" data-about-export="pdf" aria-label="Download full page as PDF">↓ PDF</button> <button type="button" data-about-export="png" aria-label="Download full page as PNG">↓ PNG</button> </div> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header profile-header"><div class="profile-intro" data-profile-intro=""> <h1 class="post-title">Yujian Li <span class="chinese-name" lang="zh-CN">(李宇健)</span><button class="name-pronunciation" type="button" title="Play pronunciation: Lǐ Yǔjiàn" aria-label="Play pronunciation of 李宇健"><i class="fa-solid fa-volume-high" aria-hidden="true"></i></button> </h1> <nav class="intro-links" aria-label="Contact and profiles"> <a class="homepage-link" href="https://liyujian.cn" target="_blank" rel="noopener noreferrer" aria-label="Personal homepage" title="Personal homepage"><i class="fa-solid fa-house" aria-hidden="true"></i></a> <a href="mailto:bebetterest@outlook.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a> <a href="https://x.com/betterestli" target="_blank" rel="noopener noreferrer" aria-label="X" title="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a> <a href="https://github.com/bebetterest" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a> <a href="/feed.xml" aria-label="RSS" title="RSS"><i class="fa-solid fa-square-rss" aria-hidden="true"></i></a> </nav><p class="personal-motto"><a href="https://en.wikipedia.org/wiki/We_Are_All_Trying_Here" target="_blank" rel="noopener noreferrer">we are all trying here</a></p> </div> <div class="profile" data-portrait-card=""> <div class="portrait-frame"> <div class="portrait-rail"> <div class="portrait-panel" data-label="GPT-6 Astra Light" data-original="/assets/img/prof_pic_pixel.png" aria-hidden="false"> <img src="/assets/img/prof_pic_pixel.png" fetchpriority="high" alt="Yujian Li — GPT-6 Astra Light" width="512" height="512" decoding="async" class="is-pixelated"> </div> <div class="portrait-panel" data-label="Natural" data-original="/assets/img/prof_pic.jpg" aria-hidden="true"> <img data-src="/assets/img/prof_pic.jpg" alt="Yujian Li — Natural" width="321" height="426" decoding="async"> </div> <div class="portrait-panel" data-label="GPT Image" data-original="/assets/img/prof_pic_gpt_image.png" aria-hidden="true"> <img data-src="/assets/img/prof_pic_gpt_image-preview.jpg" alt="Yujian Li — GPT Image" width="512" height="512" decoding="async"> </div> </div> </div> <div class="portrait-control"> <span class="portrait-caption" aria-live="polite">GPT-6 Astra Light</span> <div class="portrait-slider"> <div class="portrait-track" aria-hidden="true"><div class="portrait-fill"></div></div> <input type="range" min="0" max="2" step="0.001" value="0" class="portrait-toggle" aria-label="Portrait version" aria-valuetext="GPT-6 Astra Light"> <div class="portrait-stops" aria-hidden="true"> <span class="portrait-stop is-selected"></span><span class="portrait-stop"></span><span class="portrait-stop"></span> </div> <div class="portrait-knob" aria-hidden="true"></div> </div> </div> <a class="portrait-expand" href="/assets/img/prof_pic_pixel.png" target="_blank" rel="noopener noreferrer" aria-label="Open current portrait image" title="Open full image"><i class="fa-solid fa-expand" aria-hidden="true"></i></a> </div></header> <article> <div class="clearfix"> <script defer src="/assets/about-export.js" data-export-assets="/assets/vendor/"></script> <audio id="name-pronunciation-audio" preload="none"> <source src="/assets/audio/yujian-li.m4a" type="audio/mp4"></source> </audio> <script defer src="/assets/about-portrait.js"></script> <h2>education</h2> <section aria-label="Education"> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Xidian University</h3> <span class="experience-meta"><time datetime="2023-09-03">Sep 3, 2023</time> – <time datetime="2026-06-16">Jun 16, 2026</time><span class="experience-days" data-start-date="2023-09-03" data-end-date="2026-06-16"></span></span> </div> <p>M.Eng. in Computer Science and Technology</p> </div> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Xidian University</h3> <span class="experience-meta"><time datetime="2019-08-24">Aug 24, 2019</time> – <time datetime="2023-06-21">Jun 21, 2023</time><span class="experience-days" data-start-date="2019-08-24" data-end-date="2023-06-21"></span></span> </div> <p>B.Eng. in Artificial Intelligence</p> </div> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Urumqi No. 1 High School</h3> <span class="experience-meta"><time datetime="2016">2016</time> – <time datetime="2019">2019</time><span class="experience-duration-estimate"> (≈ 1,095 days)</span></span> </div> <p>High School</p> </div> <div class="experience-entry"> <div class="experience-entry-header"> <h3>This world</h3> <span class="experience-meta"><time datetime="2000-09-27">Sep 27, 2000</time> – Present<span class="experience-days" data-start-date="2000-09-27" data-end-date="Present"></span></span> </div> <p>Lifelong Learning</p> </div> </section> <h2>experience</h2> <section aria-label="Research experience"> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Alibaba</h3> <span class="experience-meta"><time datetime="2026-06-25">Jun 25, 2026</time> – Present<span class="experience-days" data-start-date="2026-06-25" data-end-date="Present"></span></span> </div> <div class="experience-meta">Full-time</div> <p>on VL agent for the audit task.</p> </div> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Alibaba</h3> <span class="experience-meta"><time datetime="2025-05-26">May 26, 2025</time> – <time datetime="2025-09-05">Sep 5, 2025</time><span class="experience-days" data-start-date="2025-05-26" data-end-date="2025-09-05"></span></span> </div> <div class="experience-meta">Intern</div> <p>on optimizing (sft+grpo) VLM for the audit task. Lucky to meet chuxi, chunyang, zhaoyu, xinyue, hongqiao, ziang, yan, zi, ting, haiwen... I also tried something on entropy-controlled grpo and budget-controlled reasoning.</p> </div> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Microsoft</h3> <span class="experience-meta"><time datetime="2024-10-29">Oct 29, 2024</time> – <time datetime="2025-02-17">Feb 17, 2025</time><span class="experience-days" data-start-date="2024-10-29" data-end-date="2025-02-17"></span></span> </div> <div class="experience-meta">Intern (remote)</div> <p>on reasoning (math/code). Lucky to meet xinyu, yifei, jiahang, li... I was asked on many things, including mcts, self-correction, long synthetic cot, online rl... Due to constant requests to change direction, it is broad but superficial. I do not think that I deserve the 'Stars of Tomorrow' certificate. :&lt;</p> </div> <div class="experience-entry"> <div class="experience-entry-header"> <h3>Tencent</h3> <span class="experience-meta"><time datetime="2024-03-06">Mar 6, 2024</time> – <time datetime="2024-07-25">Jul 25, 2024</time><span class="experience-days" data-start-date="2024-03-06" data-end-date="2024-07-25"></span></span> </div> <div class="experience-meta">Intern</div> <p>on LLM application for game. <span class="happy-rainbow"><span>H</span><span>a</span><span>p</span><span>p</span><span>y</span></span> to meet c, wang, tensor, peixin, ziv... We contributed to an llm-powered chat npc in a game and it's online.</p> </div> </section> <script>
+  (() => {
+    // Calendar days in Shanghai; the starting date counts as day one.
+    const formatter = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit"
+    });
+    function calendarDate(value) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(value || "")) return NaN;
+      const [year, month, day] = value.split("-").map(Number);
+      const date = new Date(Date.UTC(year, month - 1, day));
+      return date.getUTCFullYear() === year && date.getUTCMonth() === month - 1 && date.getUTCDate() === day ? date.getTime() : NaN;
+    }
+    const durationEntries = Array.from(document.querySelectorAll(".experience-days"), (label) => ({
+      label,
+      start: calendarDate(label.dataset.startDate),
+      ongoing: !label.dataset.endDate || label.dataset.endDate.toLowerCase() === "present",
+      end: calendarDate(label.dataset.endDate)
+    }));
+    const activeEntries = durationEntries.filter((entry) => entry.ongoing && Number.isFinite(entry.start));
+    activeEntries.forEach(({ label }) => label.classList.add("is-ongoing"));
+    function updateExperienceDays(entries) {
+      const now = new Date();
+      const parts = Object.fromEntries(formatter.formatToParts(now).map(({ type, value }) => [type, value]));
+      const today = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day));
+      entries.forEach(({ label, start, ongoing, end: fixedEnd }) => {
+        const end = ongoing ? today : fixedEnd;
+        const days = Math.floor((end - start) / 86400000) + 1;
+        if (ongoing && Number.isFinite(start)) {
+          // Date-only starts mean midnight in Beijing (UTC+08:00).
+          const seconds = Math.floor((now.getTime() - (start - 8 * 3600000)) / 1000);
+          if (seconds < 0) { label.textContent = ""; return; }
+          const elapsedDays = Math.floor(seconds / 86400);
+          const hours = String(Math.floor(seconds % 86400 / 3600)).padStart(2, "0");
+          const minutes = String(Math.floor(seconds % 3600 / 60)).padStart(2, "0");
+          const remainder = String(seconds % 60).padStart(2, "0");
+          label.textContent = ` (${elapsedDays}d ${hours}h ${minutes}m ${remainder}s)`;
+          label.title = "Elapsed time since midnight Beijing time on the starting date.";
+        } else {
+          label.textContent = Number.isFinite(days) && days > 0 && start <= today ? ` (${days} ${days === 1 ? "day" : "days"})` : "";
+          label.title = "Calendar days, including both the starting and ending dates.";
+        }
+      });
+    }
+    updateExperienceDays(durationEntries);
+    let timer;
+    function scheduleNextSecond() {
+      // Re-align every tick so scheduling delays do not accumulate.
+      timer = setTimeout(() => {
+        timer = undefined;
+        if (document.hidden) return;
+        updateExperienceDays(activeEntries);
+        scheduleNextSecond();
+      }, 1000 - (Date.now() % 1000));
+    }
+    function syncTimer() {
+      clearTimeout(timer);
+      timer = undefined;
+      if (!document.hidden && activeEntries.length) {
+        updateExperienceDays(activeEntries);
+        scheduleNextSecond();
+      }
+    }
+    document.addEventListener("visibilitychange", syncTimer);
+    window.addEventListener("pagehide", () => clearTimeout(timer));
+    window.addEventListener("pageshow", syncTimer);
+    syncTimer();
+  })();
+</script> <h2 id="playthings">playthings</h2> <ul> <li> <a href="https://github.com/bebetterest/OpenCompany" rel="external nofollow noopener" target="_blank">OpenCompany</a> — a toy environment where agents and users can self-organize, recruit, terminate, and collaborate.</li> <li> <a href="https://github.com/bebetterest/AgentTrade" rel="external nofollow noopener" target="_blank">AgentTrade</a> — agent-native hiring and execution playground.</li> <li> <a href="https://github.com/bebetterest/JJQA" rel="external nofollow noopener" target="_blank">JJQA</a> — a Chinese QA dataset on the lyrics of JJ Lin’s songs</li> </ul> <h2>papers</h2> <p class="small text-muted"><sup>*</sup> Corresponding author · <sup>†</sup> Equal contribution</p> <section class="paper-group" aria-label="Related papers"> <div class="paper-group-statement"> <p>I contributed just a little during my internship.</p> </div> <div class="publications"> <ol class="bibliography"><li> <div class="row"> <div id="ma2026yuvionllm" class="col-sm-10"> <div class="title">Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety</div> <div class="paper-role">Contributor</div> <div class="author"> Ting Ma<sup>†</sup>, Xiufeng Huang<sup>†</sup>, Benlei Cui<sup>†</sup>, Xiaowen Xu<sup>†</sup>, Shikai Qiu<sup>†</sup>, Ruijie Jian<sup>†</sup>, Hongxing Li<sup>†</sup>, Guanghui Wang<sup>†</sup>, Longtao Huang<sup>†</sup>, Haiwen Hong<sup>*†</sup>, and <span class="more-authors" title="click to view 36 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '36 more authors' ? 'Haolei Xu, Wenjing Jiang, Ziwen Xu, Zhaoyu Fan, Shaoxuan He, Chuxi Xiao, Yujian Li, Xinyue Chen, Chunyang Chai, Wenxuan Liu, Ziheng Wang, Dongjie Zhang, Yangfan Zhou, Libin Dong, Yupeng Cao, Xiaoqian Xia, Jing Wang, Zhe Jiang, Zhenan Ye, Guang Yang, Bin Liu, Wei Peng, Ziqiang Zhu, Meihui Lian, Kaiwen Lv Kacuila, Haidong Ding, Bingyu Zhu, Yan Wang, Hai Zhao, Xuan Jin, Wei Zhao, Pengfei Sun, Wei Wang, Huiming Zhang, Bin Li, Hui Xue' : '36 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">36 more authors</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2606.27632</em>, Jun 2026 </div> <div class="periodical"> </div> <div class="links"> <button class="bibtex btn btn-sm z-depth-0" type="button" data-bib-toggle="" aria-expanded="false" aria-controls="ma2026yuvionllm-bibtex">Bib</button> <a href="https://arxiv.org/html/2606.27632v1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://arxiv.org/pdf/2606.27632" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden" id="ma2026yuvionllm-bibtex" hidden="" inert="" aria-hidden="true"><pre><code class="language-bibtex">@misc{ma2026yuvionllmadversariallyawarelarge,
+      title={Yuvion LLM: An Adversarially-Aware Large Language Model for Content And AI Safety}, 
+      author={Ting Ma and Xiufeng Huang and Benlei Cui and Xiaowen Xu and Shikai Qiu and Ruijie Jian and Hongxing Li and Guanghui Wang and Longtao Huang and Haiwen Hong and Haolei Xu and Wenjing Jiang and Ziwen Xu and Zhaoyu Fan and Shaoxuan He and Chuxi Xiao and Yujian Li and Xinyue Chen and Chunyang Chai and Wenxuan Liu and Ziheng Wang and Dongjie Zhang and Yangfan Zhou and Libin Dong and Yupeng Cao and Xiaoqian Xia and Jing Wang and Zhe Jiang and Zhenan Ye and Guang Yang and Bin Liu and Wei Peng and Ziqiang Zhu and Meihui Lian and Kaiwen Lv Kacuila and Haidong Ding and Bingyu Zhu and Yan Wang and Hai Zhao and Xuan Jin and Wei Zhao and Pengfei Sun and Wei Wang and Huiming Zhang and Bin Li and Hui Xue},
+      year={2026},
+      eprint={2606.27632},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.27632}, 
+}</code></pre></div> </div> </div> </li></ol> <ol class="bibliography"><li> <div class="row"> <div id="qiu2026yuvion" class="col-sm-10"> <div class="title">Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety</div> <div class="paper-role">Core Contributor</div> <div class="author"> Shikai Qiu<sup>†</sup>, Xiaowen Xu<sup>†</sup>, Benlei Cui<sup>†</sup>, Ting Ma<sup>†</sup>, Xiufeng Huang<sup>†</sup>, Wenjing Jiang<sup>†</sup>, Shaoxuan He<sup>†</sup>, Haolei Xu<sup>†</sup>, Chunyang Chai<sup>†</sup>, <em>Yujian Li<sup>†</sup></em>, and <span class="more-authors" title="click to view 48 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '48 more authors' ? 'Yiliang Zhang, Guanghui Wang, Ziheng Wang, Ziwen Xu, Zhaoyu Fan, Jinhao Chen, Ruijie Jian, Hongxing Li, Chuxi Xiao, Xinyue Chen, Wenxuan Liu, Libin Dong, Yupeng Cao, Xiaoqian Xia, Jing Wang, Zhe Jiang, Zhenan Ye, Guang Yang, Bin Liu, Wei Peng, Ziqiang Zhu, Meihui Lian, Kaiwen Lv Kacuila, Haidong Ding, Dongjie Zhang, Yangfan Zhou, Bingyu Zhu, Yan Wang, Hai Zhao, Xuan Jin, Wei Zhao, Pengfei Sun, Huiming Zhang, Wei Wang, Xipeng Cao, Jialun Chen, Xiao Chen, Shaola Ren, Yunqing Hu, Bin Li, Chengwen Yao, Meng Huang, Xianfeng Li, Bin Tang, Chao Liu, Hui Xue, Longtao Huang&lt;sup&gt;†&lt;/sup&gt;, Haiwen Hong&lt;sup&gt;*†&lt;/sup&gt;' : '48 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">48 more authors</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2606.25034</em>, Jun 2026 </div> <div class="periodical"> </div> <div class="links"> <button class="bibtex btn btn-sm z-depth-0" type="button" data-bib-toggle="" aria-expanded="false" aria-controls="qiu2026yuvion-bibtex">Bib</button> <a href="https://arxiv.org/html/2606.25034v2" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://arxiv.org/pdf/2606.25034" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden" id="qiu2026yuvion-bibtex" hidden="" inert="" aria-hidden="true"><pre><code class="language-bibtex">@misc{qiu2026yuvionvlmultimodalfoundation,
+      title={Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety}, 
+      author={Shikai Qiu and Xiaowen Xu and Benlei Cui and Ting Ma and Xiufeng Huang and Wenjing Jiang and Shaoxuan He and Haolei Xu and Chunyang Chai and Yujian Li and Yiliang Zhang and Guanghui Wang and Ziheng Wang and Ziwen Xu and Zhaoyu Fan and Jinhao Chen and Ruijie Jian and Hongxing Li and Chuxi Xiao and Xinyue Chen and Wenxuan Liu and Libin Dong and Yupeng Cao and Xiaoqian Xia and Jing Wang and Zhe Jiang and Zhenan Ye and Guang Yang and Bin Liu and Wei Peng and Ziqiang Zhu and Meihui Lian and Kaiwen Lv Kacuila and Haidong Ding and Dongjie Zhang and Yangfan Zhou and Bingyu Zhu and Yan Wang and Hai Zhao and Xuan Jin and Wei Zhao and Pengfei Sun and Huiming Zhang and Wei Wang and Xipeng Cao and Jialun Chen and Xiao Chen and Shaola Ren and Yunqing Hu and Bin Li and Chengwen Yao and Meng Huang and Xianfeng Li and Bin Tang and Chao Liu and Hui Xue and Longtao Huang and Haiwen Hong},
+      year={2026},
+      eprint={2606.25034},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.25034}, 
+}</code></pre></div> </div> </div> </li></ol> </div> </section> <div class="publications individual-papers"> <ol class="bibliography"></ol> </div> <section class="paper-group" aria-label="Related papers"> <div class="paper-group-statement"> <p>I just helped.</p> </div> <div class="publications"> <ol class="bibliography"><li> <div class="row"> <div id="wang2025symtime" class="col-sm-10"> <div class="title">Synthetic Series-Symbol Data Generation for Time Series Foundation Models</div> <div class="author"> Wenxuan Wang, Kai Wu<sup>*</sup>, <em>Yujian Betterest Li</em>, Dan Wang<sup>*</sup>, and Xiaoyu Zhang </div> <div class="periodical"> <em>In Advances in Neural Information Processing Systems</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <button class="bibtex btn btn-sm z-depth-0" type="button" data-bib-toggle="" aria-expanded="false" aria-controls="wang2025symtime-bibtex">Bib</button> <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/0f45ce821121c459398fd03a0ecc6b60-Abstract-Conference.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/0f45ce821121c459398fd03a0ecc6b60-Paper-Conference.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden" id="wang2025symtime-bibtex" hidden="" inert="" aria-hidden="true"><pre><code class="language-bibtex">@inproceedings{NEURIPS2025_0f45ce82,
+ author = {Wang, Wenxuan and Wu, Kai and li, yujian and Wang, Dan and Zhang, Xiaoyu},
+ booktitle = {Advances in Neural Information Processing Systems},
+ doi = {10.52202/085713-0352},
+ editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+ pages = {10491--10554},
+ publisher = {Curran Associates, Inc.},
+ title = {Synthetic Series-Symbol Data Generation for Time Series Foundation Models},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/0f45ce821121c459398fd03a0ecc6b60-Paper-Conference.pdf},
+ volume = {38, Main Conference},
+ year = {2025}
+}
+</code></pre></div> </div> </div> </li></ol> <ol class="bibliography"><li> <div class="row"> <div id="li2024pom" class="col-sm-10"> <div class="title">Pretrained Optimization Model for Zero-Shot Black Box Optimization</div> <div class="author"> Xiaobin Li, Kai Wu<sup>*</sup>, <em>Yujian Betterrest Li</em>, Xiaoyu Zhang, Handing Wang, and Jing Liu </div> <div class="periodical"> <em>In Advances in Neural Information Processing Systems</em>, 2024 </div> <div class="periodical"> </div> <div class="links"> <button class="bibtex btn btn-sm z-depth-0" type="button" data-bib-toggle="" aria-expanded="false" aria-controls="li2024pom-bibtex">Bib</button> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/19e9a88d91917775b34fdad447ed8908-Abstract-Conference.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/19e9a88d91917775b34fdad447ed8908-Paper-Conference.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden" id="li2024pom-bibtex" hidden="" inert="" aria-hidden="true"><pre><code class="language-bibtex">@inproceedings{NEURIPS2024_19e9a88d,
+ author = {Li, Xiaobin and Wu, Kai and Li, Yujian Betterrest and Zhang, Xiaoyu and Wang, Handing and Liu, Jing},
+ booktitle = {Advances in Neural Information Processing Systems},
+ doi = {10.52202/079017-0456},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {14283--14324},
+ publisher = {Curran Associates, Inc.},
+ title = {Pretrained Optimization Model for Zero-Shot Black Box Optimization},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/19e9a88d91917775b34fdad447ed8908-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
+}
+</code></pre></div> </div> </div> </li></ol> </div> </section> <section class="paper-group" aria-label="Related papers"> <div class="paper-group-statement"> <p>Except for writing and polishing the papers, I did almost all the work myself.</p> </div> <div class="publications"> <ol class="bibliography"><li> <div class="row"> <div id="wu2024rapid" class="col-sm-10"> <div class="title">Rapid Plug-in Defenders</div> <div class="author"> Kai Wu, <em>Yujian Betterest Li<sup>*</sup></em>, Jian Lou, Xiaoyu Zhang, Handing Wang, and Jing Liu </div> <div class="periodical"> <em>In Advances in Neural Information Processing Systems</em>, 2024 </div> <div class="periodical"> </div> <div class="links"> <button class="bibtex btn btn-sm z-depth-0" type="button" data-bib-toggle="" aria-expanded="false" aria-controls="wu2024rapid-bibtex">Bib</button> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/fd9c2c5d018264c28791cda8bd60c8ce-Abstract-Conference.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://arxiv.org/pdf/2306.01762" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden" id="wu2024rapid-bibtex" hidden="" inert="" aria-hidden="true"><pre><code class="language-bibtex">@inproceedings{NEURIPS2024_fd9c2c5d,
+ author = {Wu, Kai and Li, Yujian Betterest and Lou, Jian and Zhang, Xiaoyu and Wang, Handing and Liu, Jing},
+ booktitle = {Advances in Neural Information Processing Systems},
+ doi = {10.52202/079017-4449},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {140175--140198},
+ publisher = {Curran Associates, Inc.},
+ title = {Rapid Plug-in Defenders},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/fd9c2c5d018264c28791cda8bd60c8ce-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
+}
+</code></pre></div> </div> </div> </li></ol> <ol class="bibliography"><li> <div class="row"> <div id="li2023spell" class="col-sm-10"> <div class="title">SPELL: Semantic Prompt Evolution based on a LLM</div> <div class="author"> <em>Yujian Betterest Li<sup>*</sup></em> and Kai Wu </div> <div class="periodical"> <em>arXiv preprint arXiv:2310.01260</em>, Oct 2023 </div> <div class="periodical"> </div> <div class="links"> <button class="bibtex btn btn-sm z-depth-0" type="button" data-bib-toggle="" aria-expanded="false" aria-controls="li2023spell-bibtex">Bib</button> <a href="https://arxiv.org/html/2310.01260v1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://arxiv.org/pdf/2310.01260" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden" id="li2023spell-bibtex" hidden="" inert="" aria-hidden="true"><pre><code class="language-bibtex">@misc{li2023spellsemanticpromptevolution,
+      title={SPELL: Semantic Prompt Evolution based on a LLM}, 
+      author={Yujian Betterest Li and Kai Wu},
+      year={2023},
+      eprint={2310.01260},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2310.01260}, 
+}</code></pre></div> </div> </div> </li></ol> </div> </section> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Yujian Li. Built with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> and hosted on <a href="https://pages.github.com/" rel="external nofollow noopener" target="_blank">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="/assets/al_email_protect/js/email-protect.js"></script> <script defer src="/assets/personal-site.js?v=49fde42ff7d1"></script> </body> </html>

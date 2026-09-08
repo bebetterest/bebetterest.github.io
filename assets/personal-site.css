@@ -1,0 +1,36 @@
+/* Personal-site details; the underlying layout and typography remain al-folio. */
+:root {
+  --global-text-color-light: #6f6f73;
+}
+
+html[data-theme="dark"] {
+  --global-text-color-light: #aaaab5;
+}
+
+.blog-empty {
+  padding: 1.5rem 0;
+  color: var(--global-text-color-light);
+}
+
+.publications ol.bibliography li .links button.btn {
+  color: var(--global-text-color);
+  background: transparent;
+  border: 1px solid var(--global-text-color);
+  padding: 0.25rem 1rem;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.publications ol.bibliography li .links button.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+
+.publications .links button:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.publications div.bibtex[hidden] {
+  display: none !important;
+}
